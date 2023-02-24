@@ -1,9 +1,17 @@
 /* Title Section */
 
+/* body {
+  text-align: center;
+} */
+
 #title {
   background-color: #ff4c68;
   padding: 3% 14% 3% 14%;
   height: 38rem;
+}
+
+.navbar {
+  text-align: center;
 }
 
 #brand {
@@ -48,7 +56,7 @@ i {
   z-index: 1;
   background-color: #f0f0f0;
   position: relative;
-  padding: 5rem 10% 7rem 10%;
+  padding: 7rem 10% 7rem 10%;
 }
 
 .icon {
@@ -58,7 +66,7 @@ i {
 
 .featuregraph {
   color: #8f8f8f;
-  padding: 0 12%;
+  padding: 2% 12%;
 }
 
 /* Carousal Section */
@@ -82,7 +90,9 @@ i {
 
 .car-line {
   display: inline-block;
-}
+  color: #e6e0e0;
+  font-style: italic;
+} 
 
 .companies {
   width: 16rem;
@@ -90,20 +100,21 @@ i {
 }
 
 .comp-div {
-  padding: 8rem 0 2rem 0;
+  padding: 6.5rem 0 2rem 0;
 }
 
 /* Cards Section */
 
 #cards {
   text-align: center;
-  padding: 7.5rem;
+  padding: 7rem;
   background-color: #f0f0f0;
 }
 
 .card-line {
   font-family: serif;
-  padding: 10px;
+  font-size: 3rem;
+  padding: 0.5rem;
 }
 
 .cardz {
@@ -151,4 +162,79 @@ h4 {
   color: #8f8f8f;
   padding: 1.5rem;
   font-size: large;
+}
+
+@media screen and (max-width: 1000px) {
+
+  #title {
+    text-align: center;
+    height: 60%;
+  }
+
+  .title-button {
+    margin: 0.8rem;
+  }
+
+  #title-image {
+    transform: rotate(0deg);
+    display: inline-block;
+    padding: 2rem 0 2rem 0;
+    height: 30rem;
+  }
+
+  #features {
+    background-color: #f0f0f0;
+    padding: 6rem 10% 7rem 10%;
+  }
+
+  .featuregraph {
+    color: #8f8f8f;
+    padding: 0.3rem 2rem 2rem 2rem;
+  }
+
+  .carousal-tagline {
+    font-size: 2.5rem;
+  }
+
+  .car-line {
+    font-size: 1.1rem;
+  }
+
+  .carousal-img { 
+    width: 20%;
+  }
+
+  .companies {
+    /* display: inline; */
+    width: 10rem;
+  }
+
+  .comp-div {
+    padding: 1.2rem 0.2rem 1.75rem 0.2rem;
+  }
+
+  #cards {
+    padding: 10rem 5rem 2rem 5rem;
+  }
+
+  .card-header {
+    padding: 15rem;
+  }
+
+  .card-line {
+    font-size: 3.25rem;
+  }
+
+  .card-body {
+    padding: 10rem;
+  }
+
+  #semi-finish {
+    padding: 2.5rem 0 5rem 0;
+  }
+
+  #footer {
+    padding: 2.5rem;
+  }
+
 }
