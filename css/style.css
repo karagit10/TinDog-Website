@@ -1,0 +1,154 @@
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 14% 3% 14%;
+  height: 38rem;
+}
+
+#brand {
+  font-family: cursive;
+}
+
+.navbar-brand {
+  font-size: 15rem;
+}
+
+.tagline {
+  padding: 12% 0 7% 0;
+  font-family: serif;
+  font-size: 3.48rem;
+  line-height: 5rem;
+  color: white;
+}
+
+#title-image {
+  transform: rotate(25deg);
+  padding: 12% 0 10% 10%;
+  height: 800px;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-size: larger;
+}
+
+.title-button {
+  margin-right: 1.5rem;
+}
+
+i {
+  padding: 0.5rem;
+}
+
+/* Features Section */
+
+#features {
+  text-align: center;
+  z-index: 1;
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 5rem 10% 7rem 10%;
+}
+
+.icon {
+  padding: 13% 0 13% 0;
+  color: #ff4c68;
+}
+
+.featuregraph {
+  color: #8f8f8f;
+  padding: 0 12%;
+}
+
+/* Carousal Section */
+
+#carousal {
+  color: #fff;
+  text-align: center;
+  background-image: -moz-linear-gradient(#ef8172, #ff4c68);
+}
+
+.carousal-img {
+  width: 12%;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.carousal-tagline {
+  padding: 7% 15% 3% 15%;
+  line-height: 4rem;
+}
+
+.car-line {
+  display: inline-block;
+}
+
+.companies {
+  width: 16rem;
+  padding: 2rem;
+}
+
+.comp-div {
+  padding: 8rem 0 2rem 0;
+}
+
+/* Cards Section */
+
+#cards {
+  text-align: center;
+  padding: 7.5rem;
+  background-color: #f0f0f0;
+}
+
+.card-line {
+  font-family: serif;
+  padding: 10px;
+}
+
+.cardz {
+  padding: 2rem;
+}
+
+.card-info {
+  padding: 0.4rem;
+  color: #8f8f8f;
+}
+
+h4 {
+  font-family: serif;
+}
+
+/* semi-finish Section  */
+
+#semi-finish {
+  background-color: #ff4c68;
+  padding: 2.5rem 0 10rem 0;
+  text-align: center;
+}
+
+.semi-heading {
+  color: #fff;
+  font-family: serif;
+  font-size: 3.5rem;
+  padding: 4.5rem;
+}
+
+/* Footer Section*/
+
+#footer {
+  padding: 6rem;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.footer-link {
+  color: black;
+  padding: 0.75rem;
+}
+
+#copyright {
+  color: #8f8f8f;
+  padding: 1.5rem;
+  font-size: large;
+}
